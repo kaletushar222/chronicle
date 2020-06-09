@@ -130,13 +130,14 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
+  margin-top: 1%;
 }
 
 #header .logo h1 a,
@@ -1337,7 +1338,7 @@ h6 {
   }
 
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 10px;
     padding: 8px 0;
   }
 
@@ -1408,6 +1409,18 @@ h6 {
 .heading {
   font-size: 28px;
   color: #FFF;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .heading {
+    font-size: 17px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
